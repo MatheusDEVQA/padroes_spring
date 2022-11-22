@@ -2,7 +2,7 @@ package com.padroesspring.padroes_spring.service;
 
 import com.padroesspring.padroes_spring.model.Cliente;
 
-public class ClienteService {
+public interface ClienteService {
 
     Iterable<Cliente> buscarTodos();
 
